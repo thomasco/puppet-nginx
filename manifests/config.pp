@@ -36,6 +36,7 @@ class nginx::config(
   $http_tcp_nopush                = undef,
   $keepalive_timeout              = undef,
   $logdir                         = undef,
+  $log_format                     = undef,
   $mail                           = undef,
   $multi_accept                   = undef,
   $names_hash_bucket_size         = undef,
